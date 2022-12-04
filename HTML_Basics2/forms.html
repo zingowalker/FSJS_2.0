@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORMS</title>
+  </head>
+
+  <body>
+    <h1>HTML Forms</h1>
+    <p>Required fields have * sign</p>
+    <form action="#">
+      <label for="username">
+        Name: <span aria-labelledby="required">*</span>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="your name"
+        />
+      </label>
+      <br />
+      <label for="email">
+        Email: <span aria-labelledby="required">*</span>
+        <input
+          id="email"
+          type="email"
+          name="user-email"
+          placeholder="enter email"
+        />
+      </label>
+      <br />
+      <label for="pwd">
+        Password: <span aria-labelledby="required">*</span>
+        <input
+          id="pwd"
+          type="password"
+          name="password"
+          placeholder="password"
+        />
+      </label>
+      <br />
+      <label for="gender">
+        DOB: <span aria-labelledby="required">*</span>
+        <input
+          id="gender"
+          type="date"
+          name="gender"
+          placeholder="enter male, female or other"
+        />
+      </label>
+      <br />
+      <h2>Gender Type:</h2>
+      <div>
+        <input type="radio" id="mail" name="gender" value="male" checked />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </div>
+      <h3>Javascript Fullstack Course</h3>
+      <div>
+        <label for="text">HTML</label>
+        <input type="checkbox" aria-checked="false" /> <br />
+        <label for="range">Completion Range</label>
+        <input
+          type="range"
+          id="html-range"
+          name="html-range"
+          min="0"
+          max="100"
+        />
+      </div>
+      <div>
+        <label for="text">CSS</label>
+        <input type="checkbox" aria-checked="false" /> <br />
+        <label for="range">Completion Range</label>
+        <input type="range" id="css-range" name="css-range" min="0" max="100" />
+      </div>
+      <div>
+        <label for="text">Tailwind</label>
+        <input type="checkbox" aria-checked="false" />
+      </div>
+      <div>
+        <label for="text">Bootstrap</label>
+        <input type="checkbox" aria-checked="false" />
+      </div>
+      <div>
+        <label for="text">Javascript</label>
+        <input type="checkbox" aria-checked="false" />
+      </div>
+      <div>
+        <label for="text">Github</label>
+        <input type="checkbox" aria-checked="false" />
+      </div>
+      <div>
+        <label for="text">Node Js</label>
+        <input type="checkbox" aria-checked="false" />
+      </div>
+      <br />
+      <div>
+        <input type="reset" value="reset" />
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>

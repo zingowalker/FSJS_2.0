@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTICS IN HTML</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 70%;
+            margin: auto;
+            background-color: #777;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px;
+            background-color: #777;
+        }
+
+        header h1{
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: rgb(201, 179, 140);
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 60px;
+        }
+
+        nav ul li{
+            list-style: none;
+            font-size: 20px;
+            color: #444;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav ul li:hover{
+            cursor: pointer;
+            color: #fff;
+        }
+
+        main{
+            display: flex;
+            width: 100%;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 10px;
+            width: 80%;
+        }
+       
+        main, article{
+            gap: 1%;
+        }
+        
+        article, aside {
+            margin-top: 1%;
+        }
+        article h2,
+        h3{
+            padding:  20px 0;
+            text-transform: uppercase;
+        }
+
+        article p {
+            padding: 10px 0;
+        }
+
+        aside{
+            display: flex;
+            background-color: skyblue;
+            width: 20%;
+            justify-content: start;
+            flex-direction: column;
+            align-items: center;
+            gap: 2%;
+        }
+
+        aside ul, li{
+           color: gray;;
+           list-style: none;
+        }
+
+        aside h2 {
+            margin-top: 20px;
+        }
+
+        aside ul, li:hover{
+            cursor: pointer;
+            color:#fff;
+        }
+
+      
+       footer{
+        display: flex;
+        background-color: rgb(216, 186, 146);
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 1%;
+       }
+
+       footer a{
+           color: white;
+           text-decoration: none;
+           margin-left: 10px;
+           
+       }
+
+    </style>
+</head>
+<body>
+    <!-- Heading of the page  -->
+    <header>
+        <h1>Header</h1>
+    </header>
+    <!-- Navabar -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <!-- Main section  -->
+    <main>
+        <article>
+            <h2>Article heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusantium ipsam rem ullam eaque optio nemo impedit reiciendis voluptatum tempore, suscipit libero pariatur voluptate obcaecati odit sapiente! Magnam nihil qui ut, velit, assumenda autem mollitia repellendus dolor tenetur sed omnis numquam itaque possimus voluptas adipisci facilis non dicta in. Ipsum!</p>
+
+            <h3>Subsection one</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto hic suscipit totam voluptas beatae nobis reiciendis officiis consequuntur non doloribus!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas ad quaerat velit eaque vero voluptate accusantium, eos est itaque nihil ab placeat, repudiandae molestias delectus necessitatibus? Saepe mollitia ea in.
+            </p>
+
+            <h3>Subsection Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, amet quas neque officiis fuga ut.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate rem velit repudiandae? Reiciendis unde fuga itaque deleniti porro rem hic expedita. Odit nisi ipsum, autem ratione alias facilis minus. Minima.
+            </p>
+        </article>
+   
+        <!-- Aside section of the page -->
+        <aside>
+            <h2>Latest post</h2>
+            <ul>
+                <li>Post example one</li>
+                <li>Post example two</li>
+                <li>Post example three</li>
+                <li>Post example four</li>
+            </ul>
+        </aside>
+    </main> 
+        <!-- Footer section -->
+        <footer>
+            <p>copyright 2022<a href="#">Example</a></p>
+        </footer>
+</body>
+</html>
