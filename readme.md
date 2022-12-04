@@ -11,6 +11,6 @@
 
 ### Projects Links
 
-[Project1](https://jazzy-torrone-479f64.netlify.app/)
-[Project2](https://lucky-gumdrop-996381.netlify.app/)
-[Project3](https://lucky-gumdrop-996381.netlify.app/)
+1. [Project1](https://jazzy-torrone-479f64.netlify.app/)
+2. [Project2](https://lucky-gumdrop-996381.netlify.app/)
+3. [Project3](https://lucky-gumdrop-996381.netlify.app/)
