@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.button-small {
+  background-color: rgb(165, 50, 223);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  width: 140px;
+}
+
+.logo {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: #000;
+  height: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list {
+  position: relative;
+  right: 180px;
+  display: flex;
+  color: #fff;
+  gap: 35px;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+}
+
+.list-item:first-child::after {
+  content: "";
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 7px;
+  height: 7px;
+  width: 7px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
+}
+
+.list-item:first-child::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  right: 60px;
+  border-right: 1px solid #ffffff;
+  height: 20px;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-heading,
+.hero-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.hero-heading{
+    font-size: 60px;
+    color: #fff;
+    padding: 70px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.hero-description{
+    color:#fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.button-large {
+    position: relative;
+    background-color: rgb(166, 58, 221);
+    color: #fff;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: auto;
+    left: 40%;
+    font-weight: 200;
+}
