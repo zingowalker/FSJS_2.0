@@ -9,4 +9,6 @@
 
 [Elements, Formatting and Input types ](https://mywebjourney.hashnode.dev/html-elements)
 
-### Projects Links
+### Projects 
+
+[Project1 - Link](https://jazzy-torrone-479f64.netlify.app/)
