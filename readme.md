@@ -3,11 +3,15 @@
 
 ## HTML Assignments
 
-### Article Links
+### HTML Article Links 
 
 [Introduction to Web and Html](https://mywebjourney.hashnode.dev/introduction-web-and-html)
 
 [Elements, Formatting and Input types ](https://mywebjourney.hashnode.dev/html-elements)
+
+### CSS Article Links
+
+[CSS Selectors](https://mywebjourney.hashnode.dev/css-selectors)
 
 ### Projects Links
 
