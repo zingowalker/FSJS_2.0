@@ -95,7 +95,7 @@ svg {
   right: 650px;
 }
 
-img[src="/project3/assets/person.png"] {
+img[src="./images/person.png"] {
   position: relative;
   width: 320px;
   height: auto;
