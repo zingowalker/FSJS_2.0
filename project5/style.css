@@ -89,8 +89,3 @@ main {
   padding: 25px 0px;
 }
 
-@media only screen and (max-width: 600px) {
-  nav {
-    width: 100%;
-  }
-
