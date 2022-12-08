@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1186px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > img {
+  padding: 15px;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+  margin-left: 35px;
+  font-weight: bold;
+}
+
+ul li:first-child {
+  color: #34a97a;
+}
+
+/* main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+} */
+
+.leftsection {
+  display: inline-block;
+  padding: 20px;
+}
+
+.leftsection .bottomangle {
+  position: absolute;
+  left: 780px;
+}
+
+.leftsection h1 {
+  font-size: 65px;
+  padding: 15px 10px;
+}
+
+.leftsection p {
+  color: #777;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+.leftsection .mouse {
+  position: absolute;
+  left: 830px;
+  top: 550px;
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  padding: 15px 25px;
+  width: 25%;
+  font-size: 25px;
+  color: #fff;
+  background-color: #1a9665;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  position: absolute;
+  left: 130px;
+  margin: 20px;
+  text-align: center;
+}
+
+.leftsection {
+  width: 60%;
+}
+
+.rightsection {
+  width: 40%;
+}
+
+.rightsection .greenbox {
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  padding: 5px;
+}
+
+.rightsection .yellowbox {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 990px;
+  top: 180px;
+}
+
+.stethoscope {
+  position: relative;
+  height: 600px;
+  bottom: 600px;
+  top: -400px;
+  left: 200px;
+  z-index: 0;
+}
+
+.rightsection .doctor {
+  position: absolute;
+  height: 580px;
+  width: 400px;
+  top: 90px;
+  right: 50px;
+}
