@@ -11,3 +11,7 @@
 7. Descendant Selector
 8. Sibling Selector or tilt
 9. Plus Selector or +
+
+## A card with tailwind css
+
+[Tailwindcss Card](https://spectacular-hamster-dd32dd.netlify.app/)
