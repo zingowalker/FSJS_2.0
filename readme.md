@@ -13,6 +13,9 @@
 
 [CSS Selectors](https://mywebjourney.hashnode.dev/css-selectors)
 
+### Javascript Article Links
+[Data Types and operators](https://mywebjourney.hashnode.dev/exploring-the-fascinating-world-of-javascript-data-types-and-operators)
+
 ### Projects Links
 
 1. [Project1](https://jazzy-torrone-479f64.netlify.app/)
