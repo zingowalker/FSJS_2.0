@@ -61,3 +61,108 @@ button {
 }
 
 /* Navbar End */
+
+/* Hero Section Start */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  max-width: 800px;
+  color: #fff;
+  margin: auto;
+}
+
+section .hero-left {
+  width: 60%;
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+}
+
+.hero-left .hero-title {
+  font-size: 4.3rem;
+  font-weight: 400;
+  padding: 0.2rem;
+}
+
+.hero-left .hero-title span {
+  color: #df1ed5;
+}
+
+.hero-desc {
+  padding-right: 20.8rem;
+  margin: 3rem 0;
+  color: #8b8b8b;
+  font-size: 1.2rem;
+}
+
+.btn-hero {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  border: none;
+}
+
+.btn-hero {
+  background-image: url(./Icons/btn-pink-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.btn-hero::after {
+  content: url(./Icons/RightArrow.svg);
+  padding: 1.2rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+.plus {
+  color: #df1ed5;
+}
+
+.hero-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+
+.line {
+  height: 50px;
+  width: 1px;
+  background-image: linear-gradient(#8b8b8b, #fff, #8b8b8b);
+}
+.hero-happyusers p {
+  font-size: 1.4rem;
+}
+
+section .hero-image {
+  width: 40%;
+  padding: 5rem;
+  position: absolute;
+  top: 0;
+  right: 15rem;
+}
+
+figure img {
+  height: 610px;
+  width: 810px;
+  overflow: hidden;
+}
+.img-back {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.img-front {
+  position: relative;
+  bottom: 50px;
+  left: 110px;
+  z-index: 1;
+}
+/* Hero Section End */
