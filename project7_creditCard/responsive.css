@@ -1,59 +1,144 @@
 /* Navbar  start*/
-
-@media screen and (max-width: 780px) {
+@media (max-width: 1199px) {
+  /* Navbar */
   nav {
-    flex-direction: column;
-    width: 100%;
-    padding: 0.9rem;
-    height: 10vh;
-    position: fixed;
-    top: 0;
+    flex-direction: row;
   }
-  /* Navbar End */
+  ul {
+    flex: 1;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  li {
+    width: 100%;
+  }
 
   /* Hero */
   .hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
   }
 
-  .hero-left .hero-title {
-    font-size: 2rem;
-    text-align: center;
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-title,
+  .hero-desc {
+    padding: 1rem;
   }
 
   .hero-desc {
-    color: #fff;
-    text-align: center;
+    width: 50%;
+    margin-top: 2rem;
     padding: 0;
+  }
+
+  .hero-left .hero-title {
+    font-size: 3rem;
+    width: 50%;
   }
 
   .btn-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0;
-    background-image: none;
   }
 
   .hero-image {
-    display: none;
-    /* width: 80vw;
-    position: absolute;
-    left: 0;
-    top: 4rem;
-    right: 4rem;
-    z-index: 0; */
+    right: 20rem;
+    top: 1rem;
+    padding: 1.9rem;
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    flex-direction: row;
   }
 
-  figure img {
-    height: 310px;
-    width: 510px;
+  ul {
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* Hero */
+/* Hero */
+.hero-container {
+  flex-direction: row;
+}
+
+.hero-left {
+  width: 100%;
+}
+
+.hero-title,
+.hero-desc {
+  padding: 1rem;
+}
+
+.hero-desc {
+  width: 50%;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.hero-left .hero-title {
+  font-size: 3rem;
+  width: 50%;
+}
+
+.hero-image {
+  right: 20rem;
+}
+
+@media (max-width: 767px) {
+  nav {
+    flex-direction: row;
   }
 
-  .banner {
-    display: none;
+  .logo img {
+    width: 90px;
   }
-  /* Hero End */
+
+  ul {
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  li {
+    width: 100%;
+    padding: 0.2rem;
+    margin-right: 0;
+  }
+
+  /* li:last-child {
+    display: none;
+  } */
+
+  /* .btn-right {
+    margin-left: 1.2rem;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .btn-right button {
+    font-size: 1.2rem;
+    width: 100%;
+    flex: 3;
+    flex-direction: row;
+  } */
+
+  /* .btn-pink {
+    background-image: none;
+  } */
+
+  /* .arrow {
+    margin: 0.3rem;
+  } */
 }

@@ -8,13 +8,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  max-width: 1286px;
-  margin: auto;
+  width: 100vw;
   background-color: #111111;
 }
 
 .logo img {
   width: 100px;
+  margin-left: 5rem;
 }
 
 /* Navbar Start */
@@ -38,6 +38,7 @@ nav ul li {
 .btn-right {
   display: flex;
   align-items: center;
+  margin-right: 5rem;
 }
 
 .arrow {
@@ -128,12 +129,6 @@ h2 {
   gap: 1.2rem;
 }
 
-.line {
-  height: 50px;
-  width: 1px;
-  background-image: linear-gradient(#8b8b8b, #fff, #8b8b8b);
-}
-
 .hero-happyusers p {
   font-size: 1.4rem;
 }
@@ -155,7 +150,6 @@ figure img {
   position: absolute;
   top: 0px;
   left: 0px;
-
 }
 
 .img-front {
