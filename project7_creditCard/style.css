@@ -8,38 +8,52 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
   background-color: #111111;
-  overflow: hidden;
 }
-
-.logo img {
-  width: 100px;
-  margin-left: 5rem;
-}
-
 /* Navbar Start */
-nav {
-  height: 10vh;
-  color: #fff;
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  box-shadow: 1px 1px 10px #f1f6f9;
+  padding: 0.8rem 0;
+}
+
+.logo {
+  margin-right: 3rem;
+}
+nav {
+  padding: 0.8em 0;
+  color: #fff;
 }
 
 nav ul {
   display: flex;
-}
-
-nav ul li {
   list-style: none;
-  margin-left: 1.9675rem;
 }
 
-.btn-right {
+nav li {
+  margin-left: 2rem;
+}
+
+.links-right {
   display: flex;
   align-items: center;
-  margin-right: 5rem;
+  margin-left: 3rem;
 }
 
 .arrow {
@@ -50,7 +64,6 @@ nav ul li {
   background-image: url("./Icons/btn-pink-bg.svg");
   background-position: left;
   background-repeat: no-repeat;
-  padding: 1.5rem;
 }
 
 button {

@@ -1,24 +1,15 @@
 /* Navbar  start*/
 @media (max-width: 1199px) {
   /* Navbar */
-  nav {
-    flex-direction: row;
-  }
-  ul {
-    flex: 1;
-    align-items: center;
+  header {
+    padding: 0;
+    box-shadow: none;
+    padding: 0.5rem;
   }
 
-  li {
-    width: 100%;
+  .logo img {
+    width: 100px;
   }
-
-  .btn-right {
-    flex: 1;
-    flex-direction: row;
-    padding: 2rem;
-  }
-
   /* Hero */
   .hero-container {
     flex-direction: row;
@@ -67,29 +58,20 @@
 }
 
 @media (max-width: 991px) {
-  nav {
-    flex-direction: row;
+  header {
+    padding: 0;
+    box-shadow: none;
   }
 
-  ul {
-    flex: 1;
-    align-items: center;
+  .container-nav {
+    flex-direction: column;
   }
-
-  li {
-    width: 100%;
-    margin: 1.5rem;
+  .logo {
+    margin: auto;
+    padding: 0.9rem;
   }
-
-  .btn-right {
-    width: 100%;
-    padding: 2.5rem;
-    margin-left: 1rem;
-  }
-
-  /* Hero */
-  .hero-container {
-    flex-direction: row;
+  .links-right {
+    margin: 0px;
   }
 
   .hero-left {
@@ -109,12 +91,12 @@
 
   .hero-image {
     right: 15rem;
-    top: 5rem;
+    top: 10rem;
   }
 
   figure img {
-    height: 410px;
-    width: 610px;
+    height: 310px;
+    width: 490px;
   }
   .banner {
     display: none;
@@ -122,61 +104,72 @@
 }
 
 @media (max-width: 767px) {
-  nav {
-    flex-direction: row;
+  header {
+    box-sizing: none;
+    padding: 0.5rem;
   }
 
-  ul {
-    flex: 1;
+  nav li {
+    margin: 0.2rem 0;
   }
 
-  li {
-    width: 50%;
-  }
-
-  button {
-    display: block;
-    margin: auto;
+  .container {
     text-align: center;
   }
+
+  .container-nav {
+    flex-direction: column;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .links-right {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
   /* Hero */
-
+  .hero-container {
+    width: 100%;
+    height: 50vh;
+  }
   .hero-left .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding: 0;
     text-align: center;
-    width: 90%;
+    width: 80%;
+    margin-top: 8rem;
+  }
+  .hero-desc {
+    text-align: center;
+    width: 80%;
   }
 
-  .hero-desc {
+  .btn-hero {
+    margin: auto;
     width: 80%;
-    text-align: center;
   }
 
   .hero-numbers {
     flex-direction: column;
-    justify-content: center;
-    margin: 2rem;
+    width: 80%;
   }
 
   .line {
     display: none;
   }
 
-  section {
-    width: 100vw;
-    height: 100vh;
-    background: url("./images/frontCards.png") no-repeat center center;
-    background-size: cover;
-    background-color: bisque;
+  h2 {
+    font-size: 1.5rem;
   }
 
-  /* figure img {
-    height: 300px;
-    width: 500px;
-    opacity: 0;
-  } */
-
-  .hero-image {
+  figure img {
     display: none;
   }
 }
