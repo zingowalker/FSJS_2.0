@@ -7,11 +7,16 @@
   ul {
     flex: 1;
     align-items: center;
-    /* justify-content: space-between; */
   }
 
   li {
     width: 100%;
+  }
+
+  .btn-right {
+    flex: 1;
+    flex-direction: row;
+    padding: 2rem;
   }
 
   /* Hero */
@@ -46,8 +51,18 @@
 
   .hero-image {
     right: 20rem;
-    top: 1rem;
+    top: 3rem;
     padding: 1.9rem;
+  }
+  figure img {
+    height: 510px;
+    width: 710px;
+  }
+
+  .banner {
+    position: absolute;
+    top: 40rem;
+    padding-right: 7.5rem;
   }
 }
 
@@ -59,38 +74,51 @@
   ul {
     flex: 1;
     align-items: center;
-    justify-content: space-evenly;
   }
-}
 
-/* Hero */
-/* Hero */
-.hero-container {
-  flex-direction: row;
-}
+  li {
+    width: 100%;
+    margin: 1.5rem;
+  }
 
-.hero-left {
-  width: 100%;
-}
+  .btn-right {
+    width: 100%;
+    padding: 2.5rem;
+    margin-left: 1rem;
+  }
 
-.hero-title,
-.hero-desc {
-  padding: 1rem;
-}
+  /* Hero */
+  .hero-container {
+    flex-direction: row;
+  }
 
-.hero-desc {
-  width: 50%;
-  margin-top: 2rem;
-  padding: 0;
-}
+  .hero-left {
+    width: 100%;
+  }
 
-.hero-left .hero-title {
-  font-size: 3rem;
-  width: 50%;
-}
+  .hero-desc {
+    width: 40%;
+    margin-top: 2rem;
+  }
 
-.hero-image {
-  right: 20rem;
+  .hero-left .hero-title {
+    font-size: 3rem;
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+
+  .hero-image {
+    right: 15rem;
+    top: 5rem;
+  }
+
+  figure img {
+    height: 410px;
+    width: 610px;
+  }
+  .banner {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -98,47 +126,57 @@
     flex-direction: row;
   }
 
-  .logo img {
-    width: 90px;
-  }
-
   ul {
     flex: 1;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
-    width: 100%;
   }
 
   li {
-    width: 100%;
-    padding: 0.2rem;
-    margin-right: 0;
+    width: 50%;
   }
 
-  /* li:last-child {
-    display: none;
-  } */
+  button {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  /* Hero */
 
-  /* .btn-right {
-    margin-left: 1.2rem;
-    border: none;
+  .hero-left .hero-title {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+  }
+
+  .hero-desc {
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero-numbers {
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin: 2rem;
+  }
+
+  .line {
+    display: none;
+  }
+
+  section {
+    width: 100vw;
+    height: 100vh;
+    background: url("./images/frontCards.png") no-repeat center center;
+    background-size: cover;
+    background-color: bisque;
+  }
+
+  /* figure img {
+    height: 300px;
+    width: 500px;
+    opacity: 0;
   } */
 
-  /* .btn-right button {
-    font-size: 1.2rem;
-    width: 100%;
-    flex: 3;
-    flex-direction: row;
-  } */
-
-  /* .btn-pink {
-    background-image: none;
-  } */
-
-  /* .arrow {
-    margin: 0.3rem;
-  } */
+  .hero-image {
+    display: none;
+  }
 }
