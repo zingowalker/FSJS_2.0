@@ -1,11 +1,6 @@
 /* Navbar  start*/
 @media (max-width: 1199px) {
   /* Navbar */
-  header {
-    padding: 0;
-    box-shadow: none;
-    padding: 0.5rem;
-  }
 
   .logo img {
     width: 100px;
@@ -58,11 +53,6 @@
 }
 
 @media (max-width: 991px) {
-  header {
-    padding: 0;
-    box-shadow: none;
-  }
-
   .container-nav {
     flex-direction: column;
   }
@@ -104,11 +94,6 @@
 }
 
 @media (max-width: 767px) {
-  header {
-    box-sizing: none;
-    padding: 0.5rem;
-  }
-
   nav li {
     margin: 0.2rem 0;
   }
