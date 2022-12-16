@@ -9,7 +9,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #111111;
-  overflow: hidden;
 }
 /* Navbar Start */
 nav {
@@ -182,3 +181,79 @@ figure img {
   overflow: hidden;
 }
 /* Hero Section End */
+/* Service */
+.service-container {
+  color: #fff;
+  height: 100vh;
+  max-width: 80%;
+  margin: auto;
+}
+
+.service-text {
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.service-title {
+  width: 60%;
+  padding: 0px 3rem;
+  margin: 3rem 0px;
+  font-size: 3rem;
+}
+
+.service-title span {
+  color: #df1ed5;
+}
+
+.service-desc {
+  width: 40%;
+  padding: 2rem;
+  margin: 4rem 1.5rem;
+  letter-spacing: 1px;
+  color: #938d8d;
+}
+
+.service-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.service-img img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.service-img p {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.box {
+  border: 1px solid #fff;
+  height: 200px;
+  width: 200px;
+}
+
+.box-one,
+.box-two,
+.box-three {
+  margin: 1rem 1rem;
+}
+
+.box-two {
+  position: relative;
+  bottom: 2rem;
+  background: linear-gradient(to top, #8b8b8b, #212121);
+}
+
+.box-one,
+.box-three {
+  background-color: #212121;
+}
