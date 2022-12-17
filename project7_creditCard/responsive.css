@@ -47,8 +47,35 @@
 
   .banner {
     position: absolute;
+    height: 170px;
+    position: absolute;
     top: 40rem;
-    padding-right: 7.5rem;
+  }
+
+  .bannerImg {
+    padding: 2rem;
+    margin: 2rem 0px;
+  }
+
+  /* Service */
+  .service-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  .service-text {
+    flex-direction: column;
+  }
+  .service-title,
+  .service-desc {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem 0;
   }
 }
 
@@ -88,9 +115,15 @@
     height: 310px;
     width: 490px;
   }
+
   .banner {
-    display: none;
+    height: 140px;
+    margin: 2rem 0;
   }
+  .banner img {
+    width: 110px;
+  }
+  /* Service */
 }
 
 @media (max-width: 767px) {
@@ -156,5 +189,51 @@
 
   figure img {
     display: none;
+  }
+  .banner {
+    height: 100px;
+    margin: 5rem 0;
+  }
+  .banner img {
+    width: 100px;
+    padding: 15px;
+  }
+  /* Service */
+  .service-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .service-title {
+    font-size: 1.9rem;
+    font-weight: 100;
+    margin-top: 15rem;
+  }
+
+  .service-img {
+    flex-direction: column;
+  }
+
+  .service-desc {
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
+
+  .service-img img {
+    padding: 0;
+  }
+
+  .box {
+    height: 200px;
+    width: 200px;
+  }
+
+  .box-one,
+  .box-two,
+  .box-three {
+    padding: 1rem;
+  }
+  .box-three {
+    margin-top: 0;
   }
 }

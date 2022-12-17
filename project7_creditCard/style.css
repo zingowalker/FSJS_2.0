@@ -171,16 +171,23 @@ figure img {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.banner-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0px;
+}
+
 .banner {
   position: relative;
-  height: 15vh;
+  height: 200px;
   background-color: #212121;
   bottom: 0;
   top: 20rem;
-  width: 100vw;
-  overflow: hidden;
+  width: 100%;
 }
-/* Hero Section End */
+
 /* Service */
 .service-container {
   color: #fff;
@@ -237,14 +244,31 @@ figure img {
 
 .box {
   border: 1px solid #fff;
-  height: 200px;
-  width: 200px;
+  height: 210px;
+  width: 210px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.box:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-box-shadow: 3px 3px 5px #000;
+  -moz-box-shadow: 3px 3px 5px #000;
+  box-shadow: 3px 3px 5px #000;
 }
 
 .box-one,
 .box-two,
 .box-three {
-  margin: 1rem 1rem;
+  margin: 2rem 1rem;
+  border-image: linear-gradient(to right, #8b8b8b, #212121) 1;
 }
 
 .box-two {
