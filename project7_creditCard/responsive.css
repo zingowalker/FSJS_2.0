@@ -2,9 +2,6 @@
 @media (max-width: 1199px) {
   /* Navbar */
 
-  .logo img {
-    width: 100px;
-  }
   /* Hero */
   .hero-container {
     flex-direction: row;
@@ -17,13 +14,12 @@
 
   .hero-title,
   .hero-desc {
-    padding: 1rem;
+    padding: 0;
   }
 
   .hero-desc {
-    width: 50%;
-    margin-top: 2rem;
-    padding: 0;
+    width: 40%;
+    margin: 1rem 0;
   }
 
   .hero-left .hero-title {
@@ -80,15 +76,23 @@
 }
 
 @media (max-width: 991px) {
-  .container-nav {
+  nav {
     flex-direction: column;
   }
+
   .logo {
     margin: auto;
-    padding: 0.9rem;
+    padding: 0.5rem;
   }
-  .links-right {
-    margin: 0px;
+  .nav-items {
+    flex: 1;
+  }
+  .nav-items li {
+    margin: 1rem;
+  }
+
+  .nav-right-items {
+    margin: 1rem 0;
   }
 
   .hero-left {
@@ -103,12 +107,12 @@
   .hero-left .hero-title {
     font-size: 3rem;
     width: 60%;
-    margin-bottom: 2rem;
+    margin: 3rem 0;
   }
 
   .hero-image {
     right: 15rem;
-    top: 10rem;
+    top: 15rem;
   }
 
   figure img {
@@ -127,46 +131,42 @@
 }
 
 @media (max-width: 767px) {
-  nav li {
-    margin: 0.2rem 0;
-  }
-
-  .container {
-    text-align: center;
-  }
-
-  .container-nav {
-    flex-direction: column;
-  }
-
   .logo img {
-    margin: 0;
+    width: 120px;
   }
-
-  .links-right {
-    flex-direction: column;
-    margin: 0;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
   /* Hero */
+
   .hero-container {
     width: 100%;
-    height: 50vh;
+    text-align: center;
   }
   .hero-left .hero-title {
-    font-size: 2rem;
-    padding: 0;
-    text-align: center;
-    width: 80%;
-    margin-top: 8rem;
+    width: 40%;
+    text-align: left;
+    font-size: 1.9rem;
+    margin: 1.5rem 0;
   }
+  .hero-right {
+    background-image: url("./images/frontCards.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-right img {
+    position: absolute;
+    bottom: -8rem;
+    left: 12rem;
+    width: 320px;
+    height: 280px;
+    padding: 0 1rem;
+  }
+
   .hero-desc {
-    text-align: center;
-    width: 80%;
+    text-align: left;
+    width: 40%;
+    margin: 1rem 0;
   }
 
   .btn-hero {
@@ -187,9 +187,6 @@
     font-size: 1.5rem;
   }
 
-  figure img {
-    display: none;
-  }
   .banner {
     height: 100px;
     margin: 5rem 0;

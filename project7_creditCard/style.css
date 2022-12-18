@@ -11,53 +11,50 @@ body {
   background-color: #111111;
 }
 /* Navbar Start */
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 nav {
-  padding: 0.8em 0;
-  color: #fff;
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  margin: 1.5rem 0;
 }
 
-nav ul {
+.logo {
+  flex: 0 0 auto;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  margin: 0 1rem;
+}
+
+.right-nav-items,
+.eng-btn {
   display: flex;
   list-style: none;
-}
-
-nav li {
-  margin-left: 2rem;
-}
-
-.container-nav {
-  margin: 0 auto;
-  align-items: center;
-}
-
-/* .container-nav {
-  display: flex;
-  align-items: center;
-} */
-
-/* .logo {
-  margin-right: 3rem;
-} */
-
-.right-nav {
-  /* margin-left: 3rem; */
+  margin: 0;
+  padding: 0;
 }
 
 .arrow {
-  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.right-nav-items li {
+  margin: 0 1rem;
 }
 
 .btn-pink {
   background-image: url("./Icons/btn-pink-bg.svg");
   background-position: left;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 /* Navbar End */
