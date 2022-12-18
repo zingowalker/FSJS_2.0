@@ -1,13 +1,13 @@
 /*
 => Data Types
-=> Varibales and typeof
+=> Variables and typeof
 => Date
 => Loops
 => Conditions
 => OP
 => Indexing
 => Math
-=> Objecy and  Array
+=> Object and  Array
 */
 
 // Array In Depth and For of loop
