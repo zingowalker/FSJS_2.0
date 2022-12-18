@@ -15,6 +15,7 @@
 
 ### Javascript Article Links
 [Data Types and operators](https://mywebjourney.hashnode.dev/exploring-the-fascinating-world-of-javascript-data-types-and-operators)
+[Javascript Array Method](https://mywebjourney.hashnode.dev/javascript-arrays-method)
 
 ### Projects Links
 
