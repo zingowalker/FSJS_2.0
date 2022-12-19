@@ -1,17 +1,15 @@
 /* Navbar  start*/
 @media (max-width: 1199px) {
   /* Navbar */
-  body {
-    overflow-x: hidden;
-  }
+
   /* Hero */
   .hero-container {
-    flex-direction: row;
-    overflow: hidden;
+    width: 100%;
   }
 
   .hero-left {
-    width: 100%;
+    width: 80%;
+    margin: 0 1rem;
   }
 
   .hero-title,
@@ -34,20 +32,22 @@
   }
 
   .hero-image {
-    right: 20rem;
-    top: 3rem;
-    padding: 1.9rem;
+    right: 10rem;
+    top: 12rem;
+    padding: 0;
+    overflow: hidden;
   }
   figure img {
-    height: 510px;
-    width: 710px;
+    height: 310px;
+    width: 410px;
+    margin: 0 1rem;
   }
 
   .banner {
     position: absolute;
-    height: 170px;
-    position: absolute;
-    top: 40rem;
+    height: 140px;
+    top: 34rem;
+    margin: 1rem 0;
   }
 
   .bannerImg {
@@ -78,7 +78,7 @@
   /* Car choice section */
   .card-image img {
     width: 600px;
-    heigh: auto;
+    height: auto;
   }
 }
 
@@ -103,7 +103,6 @@
   }
 
   .hero-left {
-    width: 100%;
   }
 
   .hero-desc {
@@ -113,13 +112,18 @@
 
   .hero-left .hero-title {
     font-size: 3rem;
-    width: 60%;
-    margin: 3rem 0;
+    width: 90%;
+    margin: 2rem 0;
+  }
+
+  .hero-right img {
+    padding: 0 2rem;
   }
 
   .hero-image {
-    right: 15rem;
-    top: 15rem;
+    right: 17rem;
+    top: 17rem;
+    
   }
 
   figure img {
@@ -128,7 +132,7 @@
   }
 
   .banner {
-    height: 140px;
+    height: 120px;
     margin: 2rem 0;
   }
   .banner img {
