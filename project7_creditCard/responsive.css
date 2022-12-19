@@ -1,7 +1,9 @@
 /* Navbar  start*/
 @media (max-width: 1199px) {
   /* Navbar */
-
+  body {
+    overflow-x: hidden;
+  }
   /* Hero */
   .hero-container {
     flex-direction: row;
@@ -72,6 +74,11 @@
   .service-desc {
     text-align: center;
     padding: 1.5rem 0;
+  }
+  /* Car choice section */
+  .card-image img {
+    width: 600px;
+    heigh: auto;
   }
 }
 

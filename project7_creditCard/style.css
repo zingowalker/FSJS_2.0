@@ -276,3 +276,35 @@ figure img {
 .box-three {
   background-color: #212121;
 }
+
+/* Card Choice Section Start */
+.cardchoices-container {
+  background-color: #fceffb;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 2rem;
+}
+
+.card-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 2rem 3rem;
+  width: 50%;
+  text-align: center;
+}
+
+.card-title span {
+  color: #df1ed5;
+}
+
+.card-desc {
+  width: 40%;
+}
