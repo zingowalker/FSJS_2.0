@@ -25,4 +25,5 @@
 4. [Project4](https://dazzling-cactus-2952bf.netlify.app/)
 5. [Project5](https://shimmering-douhua-d3f72d.netlify.app/)
 6. [Project6](https://dazzling-bubblegum-4569d1.netlify.app/)
-7. [vsCodeClone](https://dulcet-paprenjak-5a544a.netlify.app/)
+7. [Project7](https://nimble-cheesecake-d97bd1.netlify.app/)
+8. [vsCodeClone](https://dulcet-paprenjak-5a544a.netlify.app/)
