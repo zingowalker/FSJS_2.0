@@ -310,27 +310,32 @@ figure img {
 }
 
 /* Testimonial start */
-.testimonial-container {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  overflow: hidden;
-}
+
+/* .testimonial-container {
+ 
+} */
 
 .testimonial-text {
   text-align: center;
-  margin: 3rem 3rem;
   color: #8b8b8b;
-  padding: 2rem 2rem;
+  padding: 1rem 22rem;
+  margin: 2rem 0;
 }
 
 .testimonial-title {
   color: #fff;
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .testimonial-title span {
   color: #df1ed5;
+}
+
+.testimonial-desc {
+  text-align: center;
+  padding: 0 8rem;
+  margin: 2rem 0;
 }
 
 .card-container {
@@ -343,12 +348,18 @@ figure img {
 }
 
 .card:first-child {
-  background: #938d8d;
+  background: linear-gradient(to right, #222, #938d8d);
   color: #fceffb;
+  border-image: linear-gradient(to left, #8b8b8b, #212121) 1 solid;
 }
 
 .card {
-  border: 1px solid #fff;
+  background-color: #18191d;
+}
+
+.card {
+  border: solid;
+  border-image: linear-gradient(to bottom, #8b8b8b, #212121) 1;
   margin: 5px 0;
   width: calc(50% - 150px);
 }
@@ -365,4 +376,105 @@ figure img {
 .card-review,
 .name {
   padding: 0.5rem 1rem;
+}
+
+.testimonial-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.circle-1 {
+  width: 70px;
+  height: 12px;
+  border-radius: 15px;
+  background-color: #df1ed5;
+  margin: 0 0.5rem;
+}
+
+.circle-2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #363636;
+  margin: 0 0.5rem;
+}
+
+/* Footer Section */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  color: #fff;
+}
+
+.footer-wrapper {
+  margin: 0;
+}
+
+.footer-title {
+  position: relative;
+  text-align: center;
+  top: 12rem;
+  font-size: 3rem;
+  z-index: 1;
+  padding: 0 10rem;
+  margin: 0 10rem;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #18191d;
+}
+
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 24rem;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.footer-btn::before {
+  display: flex;
+  content: url("./Icons/btn-pink-bg.svg");
+  width: 20px;
+  align-items: center;
+}
+
+.footer-btn::after {
+  content: url("./Icons/RightArrow.svg");
+  margin: 0 1rem;
+}
+
+.footer-banner1 img,
+.footer-banner2 img {
+  height: 300px;
+  width: 100vw;
+}
+
+.footer-banner2 {
+  position: relative;
+  bottom: 19rem;
+}
+
+.banner-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.link-items {
+  margin: 0 0.5rem;
 }
