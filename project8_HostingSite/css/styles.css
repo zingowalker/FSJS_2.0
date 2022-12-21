@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -31,10 +35,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 9%;
-}
-
-header .logo {
-  /* margin-left: 2rem; */
 }
 
 header .navbar a {
@@ -49,10 +49,11 @@ header .navbar a:hover {
 
 header .navbar-btn button {
   margin-right: 2rem;
-  padding: 9px 18px;
   font-size: 2rem;
+  font-weight: 600;
   border-radius: 20px;
   color: #fff;
+  padding: 1.2rem 3rem;
   cursor: pointer;
   background-color: var(--blue);
 }
@@ -65,4 +66,87 @@ header .navbar .active {
 }
 header .navbar .active:hover {
   border-bottom: 2px solid var(--blue);
+}
+
+/* Hero Section */
+.hero {
+  background: #111;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+/* .content {
+  flex: 1 1 20rem;
+} */
+
+.hero .content h1 {
+  font-size: 4.9rem;
+  color: #fff;
+}
+
+.hero .content h1 em {
+  color: #0a6fca;
+}
+
+.hero .content p {
+  font-size: 2rem;
+  color: #fff;
+  margin: 4rem 1rem;
+  color: #777;
+}
+
+.button-group .btn {
+  margin: 0.9rem;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-group .btn-blue {
+  background: #0a6fca;
+  color: #fff;
+}
+
+.button-group .btn-blue:hover {
+  background: #77b9f3;
+}
+
+.button-group .btn-black {
+  background: #111;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.button-group .btn-black:hover {
+  background: #999;
+}
+
+.hero .image {
+  flex: 1 1 40rem;
+  flex-flow: column;
+}
+
+.hero .image img {
+  width: 100%;
+  height: 450px;
+  margin: 7rem 0;
+}
+
+.hero-banner {
+  background-color: #171616;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.hero-banner img {
+  margin: 0 4rem;
 }
