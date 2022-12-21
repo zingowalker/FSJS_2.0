@@ -1,0 +1,68 @@
+:root {
+  --blue: #0a6fca;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo {
+  /* margin-left: 2rem; */
+}
+
+header .navbar a {
+  color: #777;
+  font-size: 2rem;
+  margin: 0 0.8rem;
+}
+
+header .navbar a:hover {
+  color: var(--blue);
+}
+
+header .navbar-btn button {
+  margin-right: 2rem;
+  padding: 9px 18px;
+  font-size: 2rem;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--blue);
+}
+header .navbar-btn button:hover {
+  color: #111;
+  background-color: #fff;
+}
+header .navbar .active {
+  color: #fff;
+}
+header .navbar .active:hover {
+  border-bottom: 2px solid var(--blue);
+}
