@@ -25,7 +25,7 @@
   }
 
   .card:nth-child(2) {
-    position:  relative;
+    position: relative;
     top: 0;
   }
 }
@@ -65,5 +65,10 @@
   .hero,
   .hero-banner {
     width: 100%;
+  }
+
+  .service-text2 h3 {
+    width: 100%;
+    text-align: center;
   }
 }
