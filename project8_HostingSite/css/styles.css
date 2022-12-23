@@ -280,3 +280,42 @@ header .navbar .active:hover {
 .service-btn2 .fas {
   margin-right: 0.5rem;
 }
+
+/* Price Section */
+.price {
+  background: #212020;
+}
+
+.price .price-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.price .price-title h3 {
+  font-size: 4.5rem;
+  color: #cccccc;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.price .price-title img {
+  margin: 2rem 5rem;
+}
+
+.price .price-card {
+  background: #cccccc;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  width: 300px;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.price-sub-title,
+.price-desc,
+img {
+  flex-direction: column;
+}
