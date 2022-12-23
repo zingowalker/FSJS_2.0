@@ -284,6 +284,11 @@ header .navbar .active:hover {
 /* Price Section */
 .price {
   background: #212020;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .price .price-title {
@@ -314,8 +319,76 @@ header .navbar .active:hover {
   margin: 2rem 0;
 }
 
-.price-sub-title,
-.price-desc,
-img {
+.price-card:nth-child(3) {
+  background: #0a6fca;
+  color: #cccccc;
+}
+
+.price-card:nth-child(3) p {
+  color: #cccccc;
+}
+
+.price-card:nth-child(3) .price-btn {
+  background: #cccccc;
+  color: #0a6fca;
+}
+.price-card .price-sub-title {
+  text-align: left;
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+.price-card .price-sub-title h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.price-card .price-sub-title .price-amount {
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.price-card .price-sub-title .price-amount span {
+  color: #999;
+  font-size: 2.5rem;
+}
+.price-sub-title p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+hr {
+  border: none;
+  border-top: 2px double #999;
+  color: #999;
+  overflow: visible;
+  text-align: center;
+  height: 2px;
+  margin: 2rem 0;
+}
+
+.price-desc > img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-direction: column;
+}
+.price-desc .price-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #777;
+}
+
+.price-btn {
+  width: 100%;
+  padding: 2rem 1rem;
+  border-radius: 50px;
+  color: #fff;
+  background: #0a6fca;
+  margin: 2rem 0;
+  border: none;
 }
