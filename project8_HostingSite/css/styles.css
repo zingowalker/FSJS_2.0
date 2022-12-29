@@ -392,3 +392,64 @@ hr {
   margin: 2rem 0;
   border: none;
 }
+
+/* Review Section */
+.review {
+  margin: auto;
+  max-width: 768px;
+}
+
+.review-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.review-text h3 {
+  font-size: 3rem;
+  color: #212020;
+  padding-left: 5rem;
+}
+
+.review-text p {
+  font-size: 1.5rem;
+  padding-left: 20rem;
+}
+
+.review-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.review-card .card-1 {
+  background-color: #111;
+  color: #cccccc;
+  border-radius: 10px;
+  padding: 0 1.9rem;
+}
+
+.review-card .card-1 img {
+  width: 10px;
+  margin: 2rem 0.2rem;
+}
+
+.review-card .card-1 p {
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.review-card .card-2 {
+  background-color: #cccccc;
+  color: #999;
+  position: relative;
+  left: 25rem;
+  font-size: 1.2rem;
+}
+
+.review-card .card-2 img {
+  width: 10px;
+  margin: 2rem 0.2rem;
+}
