@@ -67,8 +67,78 @@ nav .btn {
   top: 5rem;
 }
 
-/* header .content {
-  margin: 2rem 1rem;
-  display: flex;
+section {
+  padding: 2rem 9%;
+}
 
-} */
+.content {
+  position: absolute;
+  top: 10rem;
+  left: 40rem;
+  padding: 1rem 20rem;
+  margin: 0 2rem;
+}
+
+.content .oneear {
+  width: 300px;
+  height: 40px;
+  margin: 0;
+  padding: 0 4rem;
+}
+
+.content h1,
+h2,
+p {
+  padding: 0 4rem;
+}
+.content h1 {
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.content p {
+  color: #777;
+}
+
+.cart-btn {
+  background: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  max-width: 35%;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.6rem;
+  margin: 1.5rem 4rem;
+}
+
+.cart-btn img {
+  width: 15px;
+  margin: 0.5rem 0;
+}
+
+.cart-btn span {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.brand-logo {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  right: 20rem;
+  top: 5rem;
+}
+
+.brand-logo img {
+  margin: 2rem 3rem;
+  width: 50px;
+}
