@@ -25,7 +25,6 @@ body {
   cursor: pointer;
 }
 header {
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -142,3 +141,45 @@ p {
   margin: 2rem 3rem;
   width: 50px;
 }
+
+.container {
+  position: absolute;
+  top: 55rem;
+  left: 40rem;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .heading {
+  position: relative;
+  left: 10rem;
+  bottom: 4rem;
+}
+.container .heading img {
+  width: 100px;
+  margin: 0 0 2rem;
+}
+
+.container .icon img {
+  width: 10px;
+}
+
+.container .icon p {
+  padding: 0 3rem;
+}
+.container .icon span {
+  color: #777;
+}
+
+.container .specs-image img {
+  height: 200px;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+/* case */
+
