@@ -183,3 +183,51 @@ p {
 
 /* case */
 
+.case {
+  position: absolute;
+  top: 85rem;
+  left: 50rem;
+  max-width: 100%;
+}
+.case .case-image img {
+  height: 200px;
+}
+
+.case .heading {
+  position: relative;
+  left: 10rem;
+  bottom: 2rem;
+}
+
+.case .heading img {
+  width: 100px;
+  margin: 0 0 2rem;
+}
+
+.case .case-text p {
+  padding: 0 4rem;
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.case-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 2rem 20rem;
+  position: relative;
+  right: 20rem;
+}
+
+.case .btn {
+  display: flex;
+  margin: 0.5 1rem;
+  position: relative;
+  top: 5rem;
+  right: 25rem;
+}
+
+.case .btn img {
+  display: flex;
+  width: 15px;
+  height: 15px;
+}
