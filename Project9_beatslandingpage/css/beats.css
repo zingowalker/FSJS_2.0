@@ -186,7 +186,7 @@ p {
 
 .case {
   position: absolute;
-  top: 85rem;
+  top: 90rem;
   left: 50rem;
   max-width: 100%;
 }
@@ -202,7 +202,8 @@ p {
 
 .case .heading img {
   width: 100px;
-  margin: 0 0 2rem;
+  margin: 5rem 0 2rem;
+  overflow-y: hidden;
 }
 
 .case .case-text p {
@@ -250,10 +251,10 @@ p {
   max-width: 50%;
   margin: auto;
   position: relative;
-  top: 110rem;
+  top: 120rem;
 }
 
-.buy_now_wrapper .text_content h3{
+.buy_now_wrapper .text_content h3 {
   font-size: 1.5rem;
 }
 .buy_now_wrapper .text_content h3,
