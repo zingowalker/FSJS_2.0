@@ -8,7 +8,6 @@ Ans: Push your folder on github and submit the repo link inside the dashboard of
 
 
 
-JavaScript Questions:-
 
 
 
@@ -16,37 +15,9 @@ JavaScript Questions:-
 
 
 
-09. Boolean value is either true or false.
-    - Write three JavaScript statement example which provide truthy value.
-    - Write three JavaScript statement example which provide falsy value.
 
-10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
-    - 4 > 3
-    - 4 >= 3
-    - 4 < 3
-    - 4 <= 3
-    - 4 == 4
-    - 4 === 4
-    - 4 != 4
-    - 4 !== 4
-    - 4 != '4'
-    - 4 == '4'
-    - 4 === '4'
-    - Find the length of python and jargon and make a falsy comparison statement.
 
-11. Use the Date object to do the following activities
-    - What is the year today?
-    - What is the month today as a number?
-    - What is the date today?
-    - What is the day today as a number?
-    - What is the hours now?
-    - What is the minutes now?
-    - Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
-12. Create a human readable time format using the Date time object
-    - YYYY-MM-DD HH:mm
-    - DD-MM-YYYY HH:mm
-    - DD/MM/YYYY HH:mm
 
 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
