@@ -4,19 +4,11 @@
 //  - Write three JavaScript statement example which 
 // provide falsy value.
 
-const frontend = 'html, css and js';
-const fName = '1';
-const lName = 'true'
+const truthy1 = '0'; // zero quotes is true
+const truthy2 = 'false'; // false in quotes is true
+const truthy3 = {}
+console.log(truthy3)
 
 const falsy1 = '';
 const falsy2 = 0;
 const falsy3 = undefined;
-
-// console.log(frontend ? 'true' : 'false')
-// if(fName){
-//     console.log(true);
-// } else {
-//     console.log(false);
-// }
-
-// console.log(falsy3 ? 'true' : 'false');
