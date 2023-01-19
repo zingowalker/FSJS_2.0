@@ -1,0 +1,44 @@
+@media screen and (max-width: 1230px) {
+  .brand_img img {
+    display: none;
+  }
+  nav .nav_items {
+    display: none;
+  }
+
+  nav .nav_menu_icon {
+    display: block;
+    margin: auto;
+  }
+
+  nav .nav_menu_icon i {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .hero_wrapper .one_ear {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .hero_wrapper .one_ear img {
+    width: 150px;
+  }
+
+  .hero_wrapper .hero_heading h1 {
+    width: 100%;
+    margin: auto;
+  }
+  .hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero_wrapper .hero_content {
+    width: 100%;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+  }
+}
