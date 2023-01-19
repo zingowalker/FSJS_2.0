@@ -9,7 +9,6 @@
 body {
   background: #0c0c0d;
   color: #fff;
-  height: 100vh;
   margin: 0 5%;
   font-family: "Montserrat", sans-serif;
 }
@@ -64,19 +63,76 @@ nav .nav_items {
 }
 
 .brand_img img {
-  max-width: 100px;
   height: auto;
+  width: 200px;
   margin: auto;
+  position: absolute;
+  top: -1rem;
   overflow: hidden;
 }
 
 .nav_button {
-  padding: 10px 15px;
+  padding: 10px 30px;
   background: #18181a;
   border: none;
+  border-radius: 5px;
 }
 
 .nav_button:hover {
   background: #222;
   cursor: pointer;
+}
+
+/* Hero */
+.container {
+  padding: 0 5%;
+  height: 90vh;
+}
+
+main .hero_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.hero_wrapper .one_ear img {
+  width: 250px;
+}
+
+.hero_wrapper .one_ear {
+  display: flex;
+  margin: 0 10rem;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.hero_wrapper .hero_heading h1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  color: #cccccc;
+  margin: 2rem 15rem;
+  width: 50%;
+}
+
+.hero_wrapper .hero_content {
+  padding: 0 2rem;
+  max-width: 50%;
+  position: relative;
+  left: 35rem;
+}
+
+.hero_content h2 {
+  margin: 0 2.5rem;
+}
+
+.hero_content p {
+  font-size: 0.8rem;
+  color: #777;
+  line-height: 2rem;
+  padding: 1rem 3rem;
+}
+
+.hero_btn {
+  justify-content: flex-end;
 }
