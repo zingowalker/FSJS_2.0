@@ -1,4 +1,4 @@
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 700px) {
   .brand_img img {
     display: none;
   }
@@ -22,12 +22,13 @@
   }
 
   .hero_wrapper .one_ear img {
-    width: 150px;
+    width: 100px;
   }
 
   .hero_wrapper .hero_heading h1 {
     width: 100%;
-    margin: auto;
+    margin: 2rem 0;
+    font-size: 1.5rem;
   }
   .hero_wrapper {
     display: flex;
@@ -38,7 +39,28 @@
   .hero_wrapper .hero_content {
     width: 100%;
     position: absolute;
-    top: 10rem;
+    top: 15rem;
     left: 0;
+    text-align: center;
+    margin: auto;
+  }
+
+  .hero_content h2 {
+    font-size: 1rem;
+    margin: 2rem 0;
+  }
+
+  .hero_content p {
+    padding: 0;
+    text-align: center;
+    line-height: 1rem;
+  }
+
+  .hero_btn {
+    display: none;
+  }
+
+  .brands_logo {
+    display: none;
   }
 }
