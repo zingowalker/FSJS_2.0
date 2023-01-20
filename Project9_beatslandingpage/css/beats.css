@@ -274,3 +274,40 @@ main .hero_wrapper {
   color: #777;
   margin: 0 4rem;
 }
+
+.immerse_yourself {
+  background: #131516;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.immerse_content p {
+  padding: 10px 20px;
+  color: #cccccc;
+}
+
+.immerse_btn {
+  background: #0c0c0d;
+  border: none;
+  padding: 10px 15px;
+  color: #cccccc;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  border-radius: 5px;
+}
+
+.immerse_btn img {
+  width: 10px;
+}
+.immerse_text {
+  color: #777;
+  font-size: 0.5rem;
+}
+.immerse_img img {
+  width: 200px;
+}
