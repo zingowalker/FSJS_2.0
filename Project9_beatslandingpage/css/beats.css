@@ -180,3 +180,50 @@ main .hero_wrapper {
 .brand_link img:hover {
   color: black;
 }
+
+/* specs */
+
+.container {
+  height: 100vh;
+}
+.specs_wrapper {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specs_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specs_heading img {
+  display: block;
+  width: 100px;
+}
+
+.specs_content {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  padding: 4rem 1rem;
+  color: #cccccc;
+  justify-content: space-around;
+}
+
+.text_desc {
+  color: #777;
+}
+
+.content_img img {
+}
+.content_img {
+  width: 10px;
+  margin: 0.5rem 0.5rem;
+}
+
+.specs_img img {
+  width: 200px;
+}

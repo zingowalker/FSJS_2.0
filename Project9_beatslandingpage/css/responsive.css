@@ -13,7 +13,7 @@
 
   nav .nav_menu_icon i {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .hero_wrapper .one_ear {
@@ -62,5 +62,20 @@
 
   .brands_logo {
     display: none;
+  }
+
+  .container {
+    margin: 10rem 0 0;
+  }
+
+  .specs_heading {
+    margin: 4rem 0 0;
+  }
+
+  .specs_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
 }
