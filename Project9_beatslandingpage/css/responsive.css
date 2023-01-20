@@ -1,6 +1,8 @@
 @media screen and (max-width: 700px) {
   .brand_img img {
-    display: none;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
   }
   nav .nav_items {
     display: none;
@@ -68,14 +70,17 @@
     margin: 10rem 0 0;
   }
 
-  .specs_heading {
-    margin: 4rem 0 0;
+  .heading {
+    margin: 5rem 0 0;
+    padding: 4rem 0 0;
   }
 
-  .specs_wrapper {
-    display: flex;
+  .wrapper {
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+    padding: 0;
+  }
+  .case_btn {
+    width: 50%;
+    margin: 0.5rem auto;
   }
 }
