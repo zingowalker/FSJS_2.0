@@ -315,20 +315,20 @@ main .hero_wrapper {
   display: flex;
   margin: 1rem 0;
   padding: 2rem 1rem;
-  gap: 5rem;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
 }
 
 .card_wrapper {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   flex-wrap: wrap;
   padding: 2rem 5rem;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
+  width: 70%;
 }
 
 .product_card {
@@ -338,27 +338,29 @@ main .hero_wrapper {
   height: 150px;
   align-items: center;
   flex-direction: column;
+  padding: 20px 25px;
 }
 
 .product_main {
   display: block;
   position: relative;
-  bottom: 2rem;
+  bottom: 3rem;
 }
 
 .product_text {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.3rem;
-  max-width: 100%;
+  width: 100%;
   text-align: left;
 }
 
 .product_text p {
-  font-size: 0.8rem;
-  padding: 0.5rem 1rem;
-  margin-left: 0.5rem;
+  font-size: 0.6rem;
   color: #cccccc;
+  margin-top: 0;
+  position: relative;
+  bottom: 1rem;
 }
 
 .product_img {
@@ -366,6 +368,8 @@ main .hero_wrapper {
   align-items: center;
   justify-content: center;
   background: black;
-  width: 25px;
+  width: 35px;
   height: 25px;
+  position: relative;
+  bottom: 1rem;
 }
