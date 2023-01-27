@@ -325,10 +325,12 @@ main .hero_wrapper {
 .card_wrapper {
   display: flex;
   gap: 3rem;
-  flex: 1;
   flex-wrap: wrap;
-  margin: auto;
+  padding: 2rem 5rem;
+  justify-content: center;
+  align-items: stretch;
 }
+
 .product_card {
   background-color: #18181a;
   width: 150px;
@@ -356,6 +358,7 @@ main .hero_wrapper {
   font-size: 0.8rem;
   padding: 0.5rem 1rem;
   margin-left: 0.5rem;
+  color: #cccccc;
 }
 
 .product_img {
