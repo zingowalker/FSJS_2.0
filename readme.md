@@ -27,3 +27,4 @@
 6. [Project6](https://dazzling-bubblegum-4569d1.netlify.app/)
 7. [Project7](https://nimble-cheesecake-d97bd1.netlify.app/)
 8. [vsCodeClone](https://dulcet-paprenjak-5a544a.netlify.app/)
+9. [beatsLandingPage](https://beatslanding-page.netlify.app/)
