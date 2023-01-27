@@ -373,3 +373,92 @@ main .hero_wrapper {
   position: relative;
   bottom: 1rem;
 }
+
+/* footer */
+footer {
+  padding: 2rem 9%;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  justify-content: space-around;
+}
+
+.box h3 {
+  color: #cccccc;
+}
+
+.box .items {
+  list-style: none;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.box .items .link_items {
+  line-height: 1.5rem;
+}
+
+.footer_wrapper .box .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  bottom: 1.5rem;
+  width: 20px;
+}
+
+.footer_logo {
+  display: block;
+  margin-right: 2rem;
+}
+
+.box1 {
+  flex: 2;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #222;
+}
+
+.box1 input {
+  border: none;
+  background: #222;
+}
+
+.box1 input:focus {
+  outline: none;
+}
+
+.box1 .footer_btn img {
+  display: flex;
+  width: 10px;
+  margin-right: 0.5rem;
+}
+
+.box1 .footer_btn {
+  display: flex;
+  padding: 15px 20px;
+  background-color: #222;
+  border: none;
+  color: #fff;
+  align-items: center;
+}
+
+button {
+  background: black;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
