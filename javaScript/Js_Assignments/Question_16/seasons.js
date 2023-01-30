@@ -12,7 +12,7 @@ const seasons = {
 }
 
 function getCurrentSeason(){
-    let currentMonth = new Date().getMonth() + 1; // months index start from 0, hence + 1
+    let currentMonth = new Date().getMonth() + 1; // months index start from 0
     for (let season in seasons){
         if (seasons[season].includes(currentMonth)){
             return season;

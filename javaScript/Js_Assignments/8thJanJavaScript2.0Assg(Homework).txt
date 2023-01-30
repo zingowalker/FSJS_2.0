@@ -6,11 +6,10 @@ Ans: Create a new folder and inside that you have to create folder based on the 
 Q: Where we have to submit it?
 Ans: Push your folder on github and submit the repo link inside the dashboard of ineuron.
 
-17. Write a program which tells the number of days in a month.
 
-18. Write a program which tells the number of days in a month, now consider leap year.
 
-19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
+
+
 
 20. In the following shopping cart add, remove, edit items
     => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
