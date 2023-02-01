@@ -1,4 +1,4 @@
-// first we need 5 color array
+// color array
 // then we will use querySelector to select class from index.html file
 // once we have the class name, we can then manipulate the content 
 // for this project we will give color to all character selecting the class unit stats, 
@@ -11,7 +11,17 @@ const colors = [
 ]
 
 const colorStats = document.querySelectorAll('.clash-card__unit-stats');
-const stats = document.querySelectorAll('div.stat')
+const stat = document.querySelectorAll('.one-third')
+
+
 
 colorStats[0].style.backgroundColor = colors[0]
-stats[0].style.color = '#fff';
+colorStats[1].style.backgroundColor = colors[1]
+colorStats[2].style.backgroundColor = colors[2]
+colorStats[3].style.backgroundColor = colors[3]
+colorStats[4].style.backgroundColor = colors[4]
+
+for (i = 0; i < stat.length; i++) {
+    stat[i].style.color = '#fff';
+}
+
