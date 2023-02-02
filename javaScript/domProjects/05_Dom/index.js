@@ -20,11 +20,11 @@ newDiv.append(link)
 link.append(image, h5, para)
 
 
-newDiv.classList.add('card')
+newDiv.className = ('card')
 link.className = ('recipe-text')
-image.classList.add('recipe-img')
-h5.classList.add('recipe-name')
-para.classList.add('recipe-disp')
+image.className = ('recipe-img')
+h5.className = ('recipe-name')
+para.className = ('recipe-disp')
 
 const recipeText = document.querySelectorAll(".recipe-text");
 
