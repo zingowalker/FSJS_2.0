@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  nav {
+    height: 20vh;
+  }
+
+  .nav_item,
+  .nav_items {
+    display: block;
+    margin-top: 1rem;
+  }
+  .nav_items {
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+}
