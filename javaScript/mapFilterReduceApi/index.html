@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Weather App</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- adding the css file -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- container for holding the weather card -->
+  <div class="container-sm container-fluid">
+
+    <!-- section for displaying the city weather data -->
+    <section class="cityWeatherData">
+      <h1>Weather Web App</h1>
+
+    <!-- section for searching the weather of a city -->
+    <form onsubmit="getData(event)" class="searchData  text-center">
+      <input id="inputBox" type="text" placeholder="Enter the city name" />
+      <button class="btn">Search</button>
+    </form>
+      <!-- displaying the country details -->
+      <div class="countryDetails details">
+        <!-- displaying the country name -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>Country Name</p>
+            <p id="countryName">__</p>
+          </div>
+        </div>
+  
+        <!-- displaying the state name -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>State Name</p>
+            <p id="stateName">__</p>
+          </div>
+        </div>
+
+        <!-- displaying the city name -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>City Name</p>
+            <p id="cityName">__</p>
+          </div>
+        </div>
+      
+      </div>
+      <!-- displaying the weather status -->
+      <div class="weatherDetails details">
+        <!-- displaying the humidity -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>Humidity</p>
+          <p id="humidity">__</p>
+          </div>
+        </div>
+
+        <!-- displaying the wind speed -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>Wind Speed</p>
+            <p><span id="windSpeed">__</span> KMPH</p>
+          </div>
+        </div>
+
+        <!-- displaying the current temprature in celcius -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <p>Temprature</p>
+            <!-- unicode for degree celcius symbol -->
+            <p><span id="temprature">__</span>&#8451;</p>
+          </div>
+        </div>
+
+        <!-- displaying the weather condition -->
+        <div class="card grid text-center bg-dark">
+          <div class="card-body g-col-4">
+            <img width="50px" id="logoImage" src="" alt="icon" />
+          <p id="weatherStatus">__</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+   
+</body>
+
+<!-- adding the javascript file -->
+<script src="./script.js"></script>
+
+</html>
