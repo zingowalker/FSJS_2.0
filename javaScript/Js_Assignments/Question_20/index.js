@@ -8,10 +8,12 @@
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 
 const addBeginning = 'Meat'
-const addEnd = 'Sugar'
 shoppingCart.unshift(addBeginning)
-shoppingCart.push(addEnd)
-shoppingCart.splice(-2, 1);
 
-shoppingCart.slice(1, 0, 'Green Tea');
+const addEnd = 'Sugar'
+shoppingCart.push(addEnd)
+console.log(shoppingCart)
+
+shoppingCart.splice(3, 1, 'Green Tea');
+
 console.log(shoppingCart)
