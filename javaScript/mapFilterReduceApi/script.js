@@ -3,6 +3,7 @@
 // Function to get the data from weather app
 // Manipluate the varibe of already created element
 // const url = 'd83b85a6bcf94404961110027231102';
+// const api = a2de731da8d9b6e836c4119d42f8545e
 
 let data;
 
@@ -15,6 +16,7 @@ const windSpeed = document.getElementById("windSpeed");
 const temprature = document.getElementById("temprature");
 const logoImage = document.getElementById("logoImage");
 const weatherStatus = document.getElementById("weatherStatus");
+const week = document.getElementById("week");
 
 const getData = async (event) => {
   event.preventDefault();
@@ -45,4 +47,5 @@ const getData = async (event) => {
   temprature.innerHTML = data.current.temp_c;
   logoImage.src = data.current.condition.icon;
   weatherStatus.innerHTML = data.current.condition.text;
+  week.innerHTML = data.current.is_day.getDay();
 };
