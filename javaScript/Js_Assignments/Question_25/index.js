@@ -30,12 +30,11 @@ window.onload = () => {
             result.innerHTML = `You are Underweight 😞 : <span>${bmi}</span>`
         } else if (bmi >= 18.5 && bmi < 24.9) {
             result.innerHTML = `Your weight is Normal ☺️ : <span>${bmi}</span>`
-        } else if (bmi > 25 && bmi <= 24.9) {
+        } else if (bmi > 25 && bmi <= 29.9) {
             result.innerHTML = `You are overweight ☹️ : <span>${bmi}</span>`
 
-        } else {
+        } else if (bmi > 30 ){
             result.innerHTML = `Your weight is Obese 😫 : <span>${bmi}</span>`
-
         }
     }
 }
