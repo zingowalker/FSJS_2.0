@@ -8,36 +8,34 @@
 //     - Normal weight: BMI is 18.5 to 24.9
 //     - Overweight: BMI is 25 to 29.9
 //     - Obese: BMI is 30 or more
+
 window.onload = () => {
-    let button = document.querySelector("#btn");
+    let button = document.querySelector('#btn')
+    button.addEventListener('click', calculateBMI)
 
-    // Function for calculating BMI
-    button.addEventListener("click", calculateBMI);
-};
-function calculateBMI() {
-    let height = parseInt(document.querySelector('#height').value)
-    let weight = parseInt(document.querySelector('#weight').value)
-    let result = document.querySelector('#result')
-    let bmi = weight / (height) * 2
+    function calculateBMI() {
+        let height = document.querySelector('#height').value
+        let weight = document.querySelector('#weight').value
+        let result = document.querySelector('#result')
 
-    if (height === '' || isNaN(height)) {
-        result.innerHTML = 'Provide a valid height';
+        let bmi = (weight / (height) * 2).toFixed(2)
 
-    } else if (weight === '' || isNaN(weight)) {
-        result.innerHTML = 'Provide a valid weight';
-    } else {
+        if (height === '' || isNaN(height)) {
+            result.innerHTML = 'Height is empty, please try again'
+        } else if (weight === '' || isNaN(weight)) {
+            result.innerHTML = 'Weight is empty, please try again'
+        }
 
         if (bmi < 18.5) {
-            result.innerHTML = `Underweight : <span>${bmi}</span>`;
-
+            result.innerHTML = `You are Underweight 😞 : <span>${bmi}</span>`
         } else if (bmi >= 18.5 && bmi < 24.9) {
-            result.innerHTML = `Normal Weight : <span>${bmi}</span>`;
+            result.innerHTML = `Your weight is Normal ☺️ : <span>${bmi}</span>`
+        } else if (bmi > 25 && bmi <= 24.9) {
+            result.innerHTML = `You are overweight ☹️ : <span>${bmi}</span>`
 
-        } else if (bmi >= 25 && bmi < 29.9) {
-            result.innerHTML = `Overweight: <span>${bmi}</span>`
         } else {
-            result.innerHTML = `Obese: <span>${bmi}</span>`
+            result.innerHTML = `Your weight is Obese 😫 : <span>${bmi}</span>`
+
         }
     }
-
 }
