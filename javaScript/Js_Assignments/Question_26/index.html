@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of a number</title>
+ 
+        <script type="text/javascript">
+            function printTable() {
+                var num;
+                num = Number(document.getElementById("number").value);
+                for (var i = 1; i <= 10; i++) {
+                    var pTag = document.getElementById("printT");
+                    pTag.innerHTML += `${num} x ${i} = ${num * i} <br/>`;
+                }
+            }
+       
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <h1>Display Table of a entered Number</h1>
+    <p></p><input type="text" id="number" placeholder="Enter number...."></p>
+    <p>
+        <input type="button" value="Print Table" onclick="printTable()" />
+    </p>
+    <p id="printT"></p>
+</body>
+</html>
