@@ -18,9 +18,15 @@
 ```
 
 ## Task 03
-![task02](./01_Dom/task3Output.png)
+![task03](./01_Dom/task3Output.png)
 ```
     const allSpan = document.querySelectorAll('div span');
     allSpan[2].textContent = 'an employee';
     allSpan[3].textContent = 'iNeuron Intelligence Pvt Ltd'
+```
+## Task 04
+![taxk04](./01_Dom/task4Output.png)
+```
+    const imgTag = document.getElementsByTagName('img')[0];
+    imgTag.setAttribute('src', './avatar1.png');
 ```
