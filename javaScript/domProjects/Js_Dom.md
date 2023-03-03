@@ -30,3 +30,13 @@
     const imgTag = document.getElementsByTagName('img')[0];
     imgTag.setAttribute('src', './avatar1.png');
 ```
+
+## Task 05
+![task05](./01_Dom/task5Output.png)
+```
+    const button = document.querySelector('.hero-right-section-btns');
+    const newButton = document.createElement('button');
+    const textNode = document.createTextNode('Support Me');
+    newButton.appendChild(textNode)
+    button.appendChild(newButton)
+```

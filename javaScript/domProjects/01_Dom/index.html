@@ -103,6 +103,13 @@
 
         const imgTag = document.getElementsByTagName('img')[0];
         imgTag.setAttribute('src', './avatar1.png');
+
+        const button = document.querySelector('.hero-right-section-btns');
+        const newButton = document.createElement('button');
+        const textNode = document.createTextNode('Support Me');
+        newButton.appendChild(textNode)
+        button.appendChild(newButton)
+        
     </script>
   </body>
 </html>
