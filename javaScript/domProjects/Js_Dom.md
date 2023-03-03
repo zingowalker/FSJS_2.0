@@ -1,5 +1,7 @@
 # Js Dom Projects 
-## Task 01
+
+# Project 01
+### Task 01
 
 ![task01](./01_Dom/task1Output.png)
 ```
@@ -9,7 +11,7 @@
     newLi.appendChild(liText);
     ul.appendChild(newLi);
 ```
-## Task 02
+### Task 02
 
 ![task02](./01_Dom/task2Output.png)
 ```
@@ -17,21 +19,21 @@
     inputElement.setAttribute('placeholder', 'Search My Project') ;
 ```
 
-## Task 03
+### Task 03
 ![task03](./01_Dom/task3Output.png)
 ```
     const allSpan = document.querySelectorAll('div span');
     allSpan[2].textContent = 'an employee';
     allSpan[3].textContent = 'iNeuron Intelligence Pvt Ltd'
 ```
-## Task 04
+### Task 04
 ![taxk04](./01_Dom/task4Output.png)
 ```
     const imgTag = document.getElementsByTagName('img')[0];
     imgTag.setAttribute('src', './avatar1.png');
 ```
 
-## Task 05
+### Task 05
 ![task05](./01_Dom/task5Output.png)
 ```
     const button = document.querySelector('.hero-right-section-btns');
