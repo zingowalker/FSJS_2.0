@@ -1,5 +1,7 @@
 let accordian = document.querySelectorAll(".accordian h3");
 accordian.forEach((element) => {
+  element.style.backgroundColor = '#C9EEFF';
+
   element.addEventListener("click", () => {
     let para = element.nextElementSibling;
     if (para.style.display === "block") {
